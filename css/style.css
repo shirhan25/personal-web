@@ -1,0 +1,53 @@
+
+/* I'm using gppgle fonts but to be gdpr compliant via woff and downloading & hosting it locally */
+/* nunito-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/nunito-sans-v15-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* nunito-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/nunito-sans-v15-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  :root {
+    --maroon: hsl(0, 100%, 25.3%);
+    --mauve: hsl(346, 70.3%, 44.9%);
+    --blue-lt: hsl(206, 88.9%, 61.2%);
+    --blue-d: hsl(205, 100%, 43.3%);
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Nunito Sans", Arial, sans-serif;
+    margin: 0;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+  }
+  
+  button {
+    font-family:inherit;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
